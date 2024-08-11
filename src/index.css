@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+span {
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.blue-shadow {
+  box-shadow: 3px 3px 0 0 #60a5fa;
+}
+
+.blue-shadow:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 6px 6px 0 0 #60a5fa;
+}
+
+.blue-shadow-no-hover {
+  box-shadow: 3px 3px 0 0 #60a5fa;
+}
+
+.green-shadow {
+  box-shadow: 3px 3px 0 0 rgb(74, 222, 128);
+}
+
+.green-shadow:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 6px 6px 0 0 rgb(74, 222, 128);
+}
