@@ -109,9 +109,7 @@ export default function Generator(props) {
         })}
     </div>  
 
-    <button onClick=
-    {() => {updateWorkout 
-    window.location.href = "#Workout"}}
+    <button onClick={updateWorkout }
     className='px-8 py-4 border-[2px] border-blue-400 bg-slate-950 border-solid blue-shadow duration-200 rounded-lg'>
       Formulate
     </button>
