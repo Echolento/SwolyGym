@@ -8,7 +8,7 @@ export default function Hero() {
             <h1 className='uppercase font-semibold text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>SWOLE<span className='text-blue-400'>NORMOUS</span></h1>
         </div>
         <p className='text-sm md:text-base text-bold'>I hereby acknowledge that I maybe become 
-        <span className='text-blue-400 font-medium'> incredibly and ubelievably swolenormous</span> and accept all risks of
+        <span className='text-blue-400 font-medium'> incredibly and unbelievably swolenormous</span> and accept all risks of
         becoming the local <span className='text-blue-400 font-medium'>mass montrosity</span>
         , included in this swolenormously valuable deal is being unable to fit through doors due to 
         <span className='text-blue-400 font-medium'> over swolenormousity</span></p>

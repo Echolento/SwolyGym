@@ -62,7 +62,7 @@ export default function Generator(props) {
         <button onClick={() => {
           setPoison(type) 
           setMuscles([])}}  
-        key={typeindex} className={'bg-slate-950 py-4 rounded-lg border border-solid border-blue-400 blue-shadow duration-200 ' + 
+        key={typeindex} className={'bg-slate-950 py-4 rounded-lg border-[2px] border-solid border-blue-400 blue-shadow duration-200 ' + 
           (poison == type ? 'border-green-400 green-shadow' : 'border-blue-400 blue-shadow')} >
           <p className='capitalize'>{type.replaceAll('_', " ")}</p>
         </button>
@@ -101,7 +101,7 @@ export default function Generator(props) {
           return (
             <button onClick={() => {
               setGoals(scheme)}}  
-            key={schemeindex} className={'bg-slate-950 py-4 rounded-lg border border-solid border-blue-400 blue-shadow duration-200 ' + 
+            key={schemeindex} className={'bg-slate-950 py-4 rounded-lg border-[2px] border-solid border-blue-400 blue-shadow duration-200 ' + 
               (goals == scheme ? 'border-green-400 green-shadow' : 'border-blue-400 blue-shadow')} >
               <p className='capitalize'>{scheme.replaceAll('_', " ")}</p>
             </button>

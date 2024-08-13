@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Hero from './components/Hero' 
 import Generator from './components/Generator'
 import Workout from './components/Workout'
+import Potion from './components/Potion'
 import { generateWorkout } from './utils/functions'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   const [poison, setPoison] = useState('individual')
   const [muscles, setMuscles] = useState([])
   const [goals, setGoals] = useState('strength_power')
+  const [activityLevel, setActivityLevel] = useState('')
 
   function updateWorkout() {
     if (muscles.length < 1) {
@@ -33,6 +35,7 @@ function App() {
       setGoals={setGoals}
       updateWorkout={updateWorkout}/>
       {workout && (<Workout workout={workout}/>) }
+      <Potion />
     </main>
   )
 }
